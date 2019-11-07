@@ -6,5 +6,9 @@ a{
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: arial, sans-serif;
+  font-family: Courier,arial, sans-serif;
+}
+
+ul {
+  list-style-type: none;
 }
