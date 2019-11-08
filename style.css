@@ -1,14 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+
 body {
         background: yellow;
+        font-family: Courier,arial, sans-serif;
 }
-a{
-  color: black;
+
+
+nav a{
+  color: #000;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
-  font-family: Courier,arial, sans-serif;
 }
 
 ul {
-  list-style-type: none;
+    list-style-type: none;
+}
+
+
+nav{
+    display: none;
+}
+
+header{
+      display: flex;
+      justify-content: space-between;
+      height: 64px
+}
+
+@media (min-width: 1024px) {
+    nav{
+        display: block;
+    }
+    button{
+      display: none;
+    }
+nav ul{
+  display: flex;
+}
+
+nav li{
+      margin-right: 16px;
+
+}
+
+
 }
