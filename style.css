@@ -5,6 +5,7 @@
 body {
         background: yellow;
         font-family: Courier,arial, sans-serif;
+        margin: 0;
 }
 
 
@@ -27,7 +28,10 @@ nav{
 header{
       display: flex;
       justify-content: space-between;
-      height: 64px
+      align-items: center;
+      height: 64px;
+      background-color: red;
+
 }
 
 @media (min-width: 1024px) {
