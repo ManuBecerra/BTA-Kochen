@@ -23,10 +23,9 @@ nav {
   display: none;
 }
 
-.show{
+.show {
   display: block;
 }
-
 
 header {
   display: flex;
@@ -39,9 +38,54 @@ header {
 }
 
 button {
-      background: none;
-      border: none;
+  background: none;
+  border: none;
 }
+
+#first-content {
+  background-image: url("img/intro.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color:black;
+  text-align: center;
+}
+
+.button{
+  background-color: #fff;
+  color: #374a67;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding:1rem;
+  border-radius: 5px;
+  border: 1px #374a67 solid;
+  box-shadow: 0px 4px 6px 0px rgba(0,0,0,1);
+  transition: 1s;
+}
+
+.button:hover{
+  color: #fff;
+  background-color: #374a67;
+}
+
+
+
+
+
+
+/* .button :after{
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover {
+  padding-right: 25px;
+} */
 
 
 @media (min-width: 1024px) {
