@@ -76,6 +76,33 @@ button {
   border-color: #fff;
 }
 
+.card a{
+  text-decoration: none;
+  color: #000;
+}
+
+.card{
+  text-align: center;
+}
+
+.card img{
+  width: 100%;
+}
+
+h2{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.button.button-recipe{
+  color: #fff;
+  background-color: #374a67;
+  border-color: #fff;
+}
+
+}
 @media (min-width: 1024px) {
   nav {
     display: block;
@@ -97,4 +124,3 @@ button {
     padding-left: 3%;
     padding-right: 3%;
   }
-}
