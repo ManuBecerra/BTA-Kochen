@@ -38,7 +38,7 @@ header {
 }
 
 button {
-  background: none;
+  /* background: none; */
   border: none;
 }
 
@@ -126,6 +126,30 @@ h2{
   border-color: #374a67;
 }
 
+#button-newsletter{
+  display: inline-block;
+
+}
+.data{
+  background: #04122b;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+#h2-newsletter{
+  color:white;
+}
+
+.data h2{
+  font-size: 20px;
+}
+
+.email{
+    border-radius: 5px;
+    padding: 1rem;
+
+}
+
 
 
 @media (min-width: 1024px) {
@@ -133,7 +157,7 @@ h2{
     display: block;
   }
 
-  button {
+header button {
     display: none;
   }
 
